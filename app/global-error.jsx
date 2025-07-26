@@ -6,13 +6,14 @@ import { useEffect } from "react";
 
 export default function GlobalError({ error }) {
   useEffect(() => {
-    Sentry.captureException(error);
+    const sentryError = error instanceof Error ? error : new Error(String(error));
+    Sentry.captureException(sentryError);
   }, [error]);
 
   return (
     <html>
       <body>
-        <Error />
+        <Error statusCode={500} />
       </body>
     </html>
   );
