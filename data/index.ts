@@ -73,13 +73,21 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
+    title: "Trello Clone",
+    des: "Building trello with dashboard drag and drop to mange your tasks",
+    img: "trello.webp",
+    iconLists: ["re.svg", "tail.svg", "supabase.svg", "clerk.webp"],
+    link: "https://trello-clone-ru1y.vercel.app/",
+  },
+
+  {
+    id: 2,
     title: "E-commerce",
     des: "Building E-commerce with admin dashboard and realtime notifications ",
-    img: "/ecomerce.png",
+    img: "ecomerce.png",
     iconLists: [
       "re.svg",
       "tail.svg",
-      "edux.svg",
       "mongodb.svg",
       "express.svg",
       "socketio.svg",
@@ -87,7 +95,7 @@ export const projects = [
     link: "https://mhpshop-rlks.onrender.com/",
   },
   {
-    id: 2,
+    id: 3,
     title: "Airbnb clone ",
     des: "This Airbnb clone is a full-stack web application that replicates the core functionality of the popular vacation rental platform. The project allows users to browse, book, and list properties while providing hosts with tools to manage their listings.",
     img: "airbnb.png",
@@ -95,10 +103,10 @@ export const projects = [
     link: "https://airbnb-clone-rose-psi-61.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Messenger Clone",
     des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/messenger.png",
+    img: "messenger.png",
     iconLists: [
       "next.svg",
       "tail.svg",
@@ -109,11 +117,11 @@ export const projects = [
     link: "https://messenger-clone-inx2st53d-ramezgamel.vercel.app/",
   },
   {
-    id: 4,
+    id: 5,
     title: "Movie App",
     des: "Movie App to see latest movies and show with some information and rating.",
     img: "movieApp.png",
-    iconLists: ["angular.svg", "bootstrap.svg", "/firebase.svg"],
+    iconLists: ["angular.svg", "bootstrap.svg", "firebase.svg"],
     link: "https://ramezgamel.github.io/movieApp/",
   },
 ];
@@ -156,31 +164,31 @@ export const companies = [
     id: 1,
     name: "cloudinary",
     img: "cloud.svg",
-    nameImg: "portfolio/cloudName.svg",
+    nameImg: "cloudName.svg",
   },
   {
     id: 2,
     name: "appwrite",
     img: "app.svg",
-    nameImg: "portfolio/appName.svg",
+    nameImg: "appName.svg",
   },
   {
     id: 3,
     name: "HOSTINGER",
     img: "host.svg",
-    nameImg: "portfolio/hostName.svg",
+    nameImg: "hostName.svg",
   },
   {
     id: 4,
     name: "stream",
     img: "s.svg",
-    nameImg: "portfolio/streamName.svg",
+    nameImg: "streamName.svg",
   },
   {
     id: 5,
     name: "docker.",
     img: "dock.svg",
-    nameImg: "portfolio/dockerName.svg",
+    nameImg: "dockerName.svg",
   },
 ];
 
